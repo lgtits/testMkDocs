@@ -3,8 +3,6 @@ name: build static sites
 on:
   push:
     branches: ["main"]
-  pull_request:
-    branches: ["main"]
 
 permissions:
   contents: write
@@ -14,23 +12,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 步驟 1: 簽出代碼
-      - uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744 # v3
+      - uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744
 
-      # 步驟 2: 設置 Python 環境
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
-      # 步驟 3: 安裝 MkDocs 和 mkdocs-material
       - name: Install MkDocs and Material Theme
         run: |
           python -m pip install --upgrade pip
-          pip install mkdocs mkdocs-material  # 安裝 mkdocs 和 mkdocs-material
+          pip install mkdocs mkdocs-material 
 
-      # 步驟 4: 構建並部署到 GitHub Pages
       - name: Build and Deploy MkDocs site
-        if: github.ref == 'refs/heads/main'
         run: |
           mkdocs gh-deploy --force --clean --verbose
