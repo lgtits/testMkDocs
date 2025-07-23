@@ -1,12 +1,20 @@
-site_name: My Docs
+site_name: OSSINT
 
 theme:
   name: material
-  palette:
-    scheme: slate  # 深色主題
-    primary: indigo  # 主色
-    accent: pink  # 強調色
-  font:
-    text: Roboto  # 主要字體
-    code: Fira Code  # 程式碼字體
-    features: []  # 禁用所有預設功能
+  features:
+    - navigation.sections
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+
+plugins:
+  - glightbox
+  - mkdocs-audio
