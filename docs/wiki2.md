@@ -9,7 +9,7 @@ hide:
 
 !!! wiki inline end ""
 
-    <div style="text-align: center;">[<span style="font-size: 1.5em;">'Ghadir' OTH Radar</span>](../about/license.md)</div>
+    <div style="text-align: center;">[<span style="font-size: 1.5em;">'Ghadir' OTH Radar</span>](https://www.google.com/)</div>
 
     ![Image title](https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/93/60/1e/93601e9c-ed61-3988-5bd1-48e38bf4a40e/source/256x256bb.jpg){ width="400" }
 
@@ -53,7 +53,7 @@ Sample 2:
 
 Sample 3:
 
-## ####[Sample 3](../about/license.md)
+## ####[Sample 3](https://www.google.com/)
 
 ## Frequencies
 
@@ -63,9 +63,9 @@ Often seen on the 10 m-band, often long lasting on 28.245 MHz.
 
 ## Video Examples
 
-- [Iranian Over The Horizon Radar on 10 meters g](../about/license.md)
-- [Iranian Over The Horizon Radar on 10 meters g](../about/license.md)
-- [Iranian Over The Horizon Radar on 10 meters g](../about/license.md)
+- [Iranian Over The Horizon Radar on 10 meters g](https://www.google.com/)
+- [Iranian Over The Horizon Radar on 10 meters g](https://www.google.com/)
+- [Iranian Over The Horizon Radar on 10 meters g](https://www.google.com/)
 
 ---
 

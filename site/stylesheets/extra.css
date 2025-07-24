@@ -1,0 +1,70 @@
+/* .md-header,
+.md-header__inner,
+.md-main__inner>.md-sidebar--primary,
+.md-sidebar--secondary {
+  display: none !important;
+} */
+
+.md-header, .md-footer{
+  display: none !important;
+}
+
+.admonition.wiki thead {
+  display: none;
+}
+
+.admonition.wiki table {
+  border: 0 !important;
+}
+
+.admonition.wiki tr,
+.admonition.wiki td {
+  border: 0 !important;
+  border-top: 0 !important;
+  padding: 2px !important;
+}
+
+.admonition.wiki {
+  word-break: break-all;
+  border-color: grey;
+  box-shadow: none;
+  width: 400px;
+}
+
+.admonition.note.text-box {
+  background-color: #F8F8F8;
+  width: fit-content;
+  border-color: #E6E6E6;
+}
+
+.admonition.note.text-box .admonition-title{
+  display: none;
+}
+
+.audio-container audio {
+  /* width: 160px !important ; */
+
+}
+.audio-container audio::-webkit-media-controls-enclosure {
+  overflow: hidden;
+}
+
+audio::-webkit-media-controls-enclosure {
+  overflow: hidden;
+}
+
+.audio-container audio::-webkit-media-controls-panel {
+  width: calc(100% + 30px);
+}
+
+audio::-webkit-media-controls-panel {
+  width: calc(100% + 30px);
+}
+
+/* audio::-webkit-media-controls-mute-button {
+  display: none !important;
+}
+
+audio::-webkit-media-controls-volume-slider {
+  display: none !important;
+} */
